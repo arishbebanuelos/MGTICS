@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+padding: 0;
+}
+body{
+    font-family: Arial;
+    background-color: grey;
+    color: white;
+}
+p{
+    line-height: 1.5;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.active{
+color: pink;
+font-weight: bold;
+}
+.text-primary{
+    color: blue;
+}
+.text-secundary{
+    color: aqua;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu-nav{
+    height: 60px;
+    background-color: white;
+    padding-left: 20px;
+
+}
+.menu-nav a{
+    margin-right: 30px;
+}
+.menu-nav a:hover{
+    color: aquamarine;
+}
+
+.my-info{
+    padding-top: 30px;
+    text-align: center;
+}
+.my-info img{
+    display: block;
+    width: 200px;
+    height: 200px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 50%;
+}
+
+.my-info{
+    font-weight: 400;
+    font-size: 42px;
+}
+.my-info{
+    font-size: 22px;
+}

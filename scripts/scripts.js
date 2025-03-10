@@ -1,33 +1,31 @@
-// keyword variablename = value
-//val, let, const
+// keyword variableName = value;
+// var, let, const
 
-//string 
-var firstName = "Arishbe";
-var lastName = "Dudlley";
+//String
+var firstName = "Samantha";
+var lastName = "Jimenez";
 
-//concatenacion
-console.log("Name: "+ firstName + " Last name: "+ lastName);
+//concatenation
+console.log("Name: "+firstName + " " + lastName);
 
+firstName = "Fernanda";// cambia
 
-firstName = "Daniel";
-console.log(firstName,lastName);
-
-//numerico
-let myAge=26;
-let myHeight= 155;
+//numerical
+let myAge=99;
+let myHeight=100;
 
 console.log(myAge,myHeight);
 
-//bolean
-let isStudent = true;
+//boolean (true/false)
+let isStudent = true; 
 
-//math operations
+//math operations + - / *
 let num1=10;
 let num2=12;
 
-document.write("El resultado es: " + (num1+num2)+ "</p>");
-document.write("El resultado es: " + (num1-num2));
-document.write("El resultado es: " + (num1*num2));
-document.write("El resultado es: " + (num1/num2).toFixed(3));
+document.write("<p>El resultado es = " + (num1+num2) + "</p>");
+document.write("El resultado es = " + (num1-num2));
+document.write("El resultado es = " + (num1*num2));
+document.write("El resultado es = " + (num1/num2).toFixed(3));
 
-alert("Este es un mensaje de ALERTA");
+//alert("Esto es un mensaje de alerta");
